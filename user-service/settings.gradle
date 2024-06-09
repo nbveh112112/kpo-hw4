@@ -1,0 +1,12 @@
+pluginManagement {
+    plugins {
+        id "io.freefair.lombok" version "$lombokVersion"
+        id 'io.spring.dependency-management' version "$dependencyManagementVersion"
+        id 'org.springframework.boot' version "$springBootVersion"
+    }
+}
+
+include('user-data-api')
+include('user-app')
+include('user-data')
+include('user-api')

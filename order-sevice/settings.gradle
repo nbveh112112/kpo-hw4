@@ -1,0 +1,12 @@
+pluginManagement {
+    plugins {
+        id "io.freefair.lombok" version "$lombokVersion"
+        id 'io.spring.dependency-management' version "$dependencyManagementVersion"
+        id 'org.springframework.boot' version "$springBootVersion"
+    }
+}
+
+include('order-data-api')
+include('order-app')
+include('order-data')
+include('order-api')
